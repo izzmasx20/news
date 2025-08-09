@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body class="bg-[var(--Off-white)]">
+    <header>
+      <nav class="px-30 py-10 flex ml-auto">
+        <div class="text-6xl font-semibold">
+          <h1>W.</h1>
+        </div>
+        <div
+          class="flex flex-row sm:flex-col w-full sm:max-w-[375px] sm:ml-auto lg:flex-row lg:min-w-[1445] gap-8 text-xs justify-between text-gray-500"
+        >
+          <a href="" class="hover:text-red-300">Home</a>
+          <a href="" class="hover:text-red-300">New</a>
+          <a href="" class="hover:text-red-300">Popular</a>
+          <a href="" class="hover:text-red-300">Trending</a>
+          <a href="" class="hover:text-red-300">Categories</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="px-30 py-10">
+        <div class="flex gap-8 sm:flex-col w-full lg:flex-row lg:min-w-[1445]">
+          <div>
+            <img src="assets/images/image-web-3-desktop.jpg" alt="web3" />
+            <div class="flex gap-10">
+              <div class="font-black text-5xl mt-8">
+                <h1>The Bright Future Of Web 3.0 ?</h1>
+              </div>
+              <div class="text-xs text-gray-500 mt-8">
+                <p>
+                  we dive into evolution of the web that claims to put the power
+                  of the platforms back into the hands of the people. But is it
+                  really fulfilling its promise?
+                </p>
+                <button
+                  class="bg-[var(--Softred)] p-2 w-30 mt-8 text-stone-900 hover:bg-[var(--Verydarkblue)] hover:text-white font-bold tracking-widest cursor-pointer"
+                >
+                  READ MORE
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[var(--Verydarkblue)] text-white p-3">
+            <h1 class="font-bold text-3xl text-orange-300">New</h1>
+            <h3
+              class="font-semibold text-xl mt-5 hover:text-orange-300 cursor-pointer"
+            >
+              HydrogenS Electric Cars
+            </h3>
+            <p class="text-xs mt-2 mb-4 text-gray-100">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+            <hr />
+            <h3
+              class="font-semibold text-xl mt-5 hover:text-orange-300 cursor-pointer"
+            >
+              The Downsides of AI Artistry
+            </h3>
+            <p class="text-xs mt-2 mb-4 text-gray-100">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+            <hr />
+            <h3
+              class="font-semibold text-xl mt-5 hover:text-orange-300 cursor-pointer"
+            >
+              Is VC Funding Drying Up?
+            </h3>
+            <p class="text-xs mt-2 mb-4 text-gray-100">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="px-30 py-10">
+        <div class="flex sm:flex-col w-full lg:flex-row gap-8">
+          <div class="flex gap-5">
+            <img
+              src="assets/images/image-retro-pcs.jpg"
+              alt="image-retro-pcs"
+              class="w-30 h-30"
+            />
+            <div>
+              <h2 class="font-bold text-2xl text-orange-400">01</h2>
+              <h3
+                class="font-semibold text-base hover:text-orange-400 cursor-pointer"
+              >
+                Reviving Retro PCs
+              </h3>
+              <p class="text-xs mt-2">
+                What happens when old PCs are given modern upgrades?
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-5">
+            <img
+              src="assets/images/image-top-laptops.jpg"
+              alt="image-top-laptops"
+              class="w-30 h-30"
+            />
+            <div>
+              <h2 class="font-bold text-2xl text-orange-400">02</h2>
+              <h3
+                class="font-semibold text-base hover:text-orange-400 cursor-pointer"
+              >
+                Top 10 Laptops of 2022
+              </h3>
+              <p class="text-xs mt-2">
+                Our best picks for various needs and budgets.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-5">
+            <img
+              src="assets/images/image-gaming-growth.jpg"
+              alt="image-gaming-growth"
+              class="w-30 h-30"
+            />
+            <div>
+              <h2 class="font-bold text-2xl text-orange-400">03</h2>
+              <h3
+                class="font-semibold text-base hover:text-orange-400 cursor-pointer"
+              >
+                The Growth of Gaming
+              </h3>
+              <p class="text-xs mt-2">
+                How the pandemic has sparked fresh opportunities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
